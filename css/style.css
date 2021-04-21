@@ -706,6 +706,33 @@ img {
     margin: 30px 10px 30px 10px;
     width: 300px;
   }
+  .button {
+    margin-left: 65%;
+  }
+  .footer-logo {
+    width: 40%;
+  }
+
+  .footer-logo-pic {
+    width: 190px;
+    height: 140px;
+  }
+
+  .footer-item {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footer-nav {
+    width: 60%;
+  }
+
+  .footer-menu-item {
+    margin: 0 3px;
+  }
+  .form-field {
+    width: 650px;
+  }
 }
 @media screen and (max-width: 700px) {
   .section2_title {
@@ -775,11 +802,6 @@ img {
     margin: 20px 10px 10px 10px;
     width: 350px;
   }
-  .footer {
-    background: #0e1d28;
-    padding: 35px 0;
-  }
-
   .fotter-logo {
     width: 30%;
   }
@@ -800,5 +822,26 @@ img {
   }
   .places-wiew-all {
     margin-top: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .section2_card {
+    width: 250px;
+  }
+  .fotter-logo {
+    width: 20%;
+  }
+
+  .footer-logo-pic {
+    width: 120px;
+    height: 90px;
+  }
+  .footer-nav {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .section2_card {
+    width: 200px;
   }
 }
