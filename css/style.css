@@ -844,4 +844,18 @@ img {
   .section2_card {
     width: 200px;
   }
+  .section1_title {
+    font-size: 50px;
+  }
+  .section1_subtitle {
+    font-size: 19px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .section1_title {
+    font-size: 40px;
+  }
+  .section1_subtitle {
+    font-size: 19px;
+  }
 }
